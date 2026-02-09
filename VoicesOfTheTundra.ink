@@ -311,7 +311,7 @@ VAR поговорил_со_старушкой = false
 -> old_lady
 
 === after_questions ===
-#Location: after_questions
+#Location: outside
 + Пройти к окраине, где стоят генераторы
     -> generators
 
@@ -327,7 +327,7 @@ VAR поговорил_со_старушкой = false
     -> pass_by
 
 === call_Arylhan ===
-#Location: call_Arylhan
+#Location: generators
 
 Александр: Арылхан!
 
@@ -481,3 +481,4 @@ VAR поговорил_со_старушкой = false
 #Location: Ending_three
 Вы решили уйти. Проект был закрыт. Посёлок продолжал жить своей жизнью, но прогресс не пришел.
 -> END
+
